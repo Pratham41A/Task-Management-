@@ -1,3 +1,5 @@
+/*
+
 import emailjs from "@emailjs/browser";
 
 export async function sendForgotPasswordOtpEmail(otp, email) {
@@ -12,3 +14,5 @@ export async function sendForgotPasswordOtpEmail(otp, email) {
         import.meta.env.VITE_PUBLIC_KEY
       )
     }
+
+    */

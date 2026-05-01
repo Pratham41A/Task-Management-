@@ -31,8 +31,8 @@ export default function UpdatePassword() {
       setIsLoading(true);
       const res = await dispatch(forgotPasswordOtp({ email })).unwrap();
 
-      await sendForgotPasswordOtpEmail(res, email);
-      alert('Otp Sent, Please Check Your Email');
+      //await sendForgotPasswordOtpEmail(res, email);
+      alert(`OTP is ${res}`);
       dispatch(setAuthError(null));
       dispatch(setIsLoggedIn(false));
       dispatch(setUser(null));
